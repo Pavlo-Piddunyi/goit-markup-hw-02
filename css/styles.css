@@ -1,0 +1,145 @@
+.page {
+    background: #FFFFFF;
+    }
+
+a {
+    text-decoration: none;
+}
+/**
+  |============================
+  | Header styles
+  |============================
+*/ 
+.header {
+    background: #FFFFFF;
+}
+
+.header-nav {
+
+}
+
+.header-logo {}
+
+.header-studio {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link:hover {
+    color: #404BBF;
+}
+
+.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    }
+
+.header-address {}
+
+.header-contact {}
+
+.contact-link:hover {
+    color: #404BBF;
+}
+
+.contact-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+
+.hero {}
+
+.hero-title {}
+
+.hero-btn {}
+
+/**
+  |============================
+  | Feature styles
+  |============================
+*/
+.feature {}
+
+.feature-title {}
+
+.feature-list {}
+
+.feature-item {}
+
+.feature-subtitle {}
+
+.feature-lead {}
+
+/**
+  |============================
+  | Services styles
+  |============================
+*/
+.services {}
+
+.services-title {}
+
+.services-list {}
+
+.services-item {}
+
+.services-img {}
+
+
+
+/**
+  |============================
+  | Team styles
+  |============================
+*/
+
+.team {
+    background: #F4F4FD;
+}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-subtitle {}
+
+.team-lead {}
+
+.team-img {}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+    background: #2E2F42;
+}
+
+.footer-logo {
+
+}
+
+.footer-studio {}
+
+.footer-lead {}
