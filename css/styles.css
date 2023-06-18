@@ -67,7 +67,7 @@ address {
 }
 
 .header-logo {
-  font-family:var(--secondary-font);
+  font-family:"Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -77,7 +77,7 @@ address {
 }
 
 .header-studio {
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   color: #2E2F42;
 }
 
@@ -250,7 +250,7 @@ address {
 }
 
 .footer-logo {
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -260,7 +260,7 @@ address {
 }
 
 .footer-studio {
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   color: #F4F4FD;
 }
 
@@ -281,7 +281,7 @@ address {
   |============================
 */
 .filter-title {
-  
+
 }
 
 .filter-btn-all {
