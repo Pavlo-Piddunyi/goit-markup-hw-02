@@ -1,14 +1,32 @@
+:root {
+  /* Font*/
+  --primary-font: Roboto;
+  --secondary-font Raleway;
+
+  /* Colors*/
+  --body-grey-cl: #2E2F42 ;
+  --body-white-bg: #FFFFFF ;
+  --link-grey-cl: #434455 ;
+  --text-grey-cl: #434455;
+}
+
 /**
   |============================
-  | Common styke
+  | Common styles
   |============================
 */
 
 body {
-  font-family: Roboto, Raleway, sans-serif;
-  background: #FFFFFF;
+  font-family: var(--primary-font), sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: --body-grey-cl;
+  background: var(--body-white-bg)
     }
 
+/* Reset*/
 a {
     text-decoration: none;
     color: currentColor;
@@ -22,12 +40,19 @@ button {
 address {
   font-style: normal;
 }
-.section {
 
+/* Base styles*/
+
+.section {
 }
 
 .list {
   list-style: none;
+}
+
+.link {
+  color:var(--link-grey-cl);
+
 }
 /**
   |============================
@@ -35,14 +60,13 @@ address {
   |============================
 */ 
 .header {
-
 }
 
 .header-nav {
-
 }
 
 .header-logo {
+  font-family:var(--primary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -69,7 +93,6 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
 }
 
 .header-address {
@@ -88,14 +111,11 @@ address {
   color: #404BBF;
 }
 
-.header-contact {
+.header-contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
-
-
 
 /**
   |============================
@@ -153,10 +173,7 @@ address {
 }
 
 .feature-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-grey-cl);
 }
 
 /**
@@ -212,17 +229,12 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
 
 .team-text {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color:var(--text-grey-cl);
 }
 
 .team-img {}
@@ -237,6 +249,7 @@ address {
 }
 
 .footer-logo {
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -246,17 +259,58 @@ address {
 }
 
 .footer-studio {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #F4F4FD;
 }
 
 .footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-family: var(--primary-font);
   color: #F4F4FD;
+}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+
+/**
+  |============================
+  | Filter btn
+  |============================
+*/
+.filter-list {}
+
+.filter-item {}
+
+.filter-btn-all {
+  font-weight: 500;
+  color: #FFFFFF;
+  background: #404BBF;
+}
+
+.filter-btn {
+  font-weight: 500;
+  color: #4D5AE5;
+  background: #F4F4FD;
+}
+
+/**
+  |============================
+  | Filter items
+  |============================
+*/
+.list-block {}
+
+.item-site {}
+
+.filter-link {}
+
+.filter-img {}
+
+.filter-subtitle {
+  color: var(--body-grey-cl)
+}
+
+.filter-text {
+  color: var(--text-grey-cl);
 }
