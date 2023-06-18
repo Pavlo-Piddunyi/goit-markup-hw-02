@@ -1,12 +1,12 @@
 :root {
   /* Font*/
   --primary-font: Roboto;
-  --secondary-font Raleway;
+  --secondary-font Raleway, sans-serif;
 
   /* Colors*/
-  --body-grey-cl: #2E2F42 ;
+  --body-grey-cl: #434455 ;
   --body-white-bg: #FFFFFF ;
-  --link-grey-cl: #434455 ;
+  --link-grey-cl: #2e2f42 ;
   --text-grey-cl: #434455;
 }
 
@@ -52,6 +52,7 @@ address {
 
 .link {
   color:var(--link-grey-cl);
+  text-decoration: none;
 
 }
 /**
@@ -83,9 +84,11 @@ address {
 
 .header-item {}
 
-.header-link:hover,
+.header-link:hover {
+  color: #404BBF;
+}
 .header-link:focus {
-    color: #404BBF;
+  color: #404BBF;
 }
 
 .header-link {
@@ -102,12 +105,8 @@ address {
 
 }
 
-.header-contact-link {
-
-}
-
-.header-contact:hover,
-.header-contact:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: #404BBF;
 }
 
@@ -115,6 +114,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /**
