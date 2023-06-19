@@ -22,7 +22,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: --body-grey-cl;
+  color: #434455;
   background: var(--body-white-bg)
     }
 
@@ -82,7 +82,9 @@ address {
 
 .header-list {}
 
-.header-item {}
+.header-item {
+  color: #2E2F42;
+}
 
 .header-link:hover {
   color: #404BBF;
@@ -221,7 +223,9 @@ address {
   color: #2E2F42;
 }
 
-.team-list {}
+.team-list {
+  background-color: #FFFFFF;
+}
 
 .team-item {}
 
