@@ -296,14 +296,20 @@ address {
 
 .filter-btn-all {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #FFFFFF;
-  background: #404BBF;
+  background-color: #404BBF;
 }
 
 .filter-btn {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #4D5AE5;
-  background: #F4F4FD;
+  background-color: #F4F4FD;
 }
 
 /**
@@ -320,7 +326,12 @@ address {
 .filter-img {}
 
 .filter-subtitle {
-  color: var(--body-grey-cl)
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+
 }
 
 .filter-text {
