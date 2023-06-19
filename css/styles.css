@@ -294,11 +294,8 @@ address {
   
 }
 
-.filter-btn-all {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+.filter-btn:hover,
+.filter-btn:focus {
   color: #FFFFFF;
   background-color: #404BBF;
 }
@@ -310,8 +307,8 @@ address {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #F4F4FD;
- 
 }
+
 
 /**
   |============================
@@ -320,7 +317,8 @@ address {
 */
 .list-block {}
 
-.item-site {}
+.item-site {
+}
 
 .filter-link {}
 
