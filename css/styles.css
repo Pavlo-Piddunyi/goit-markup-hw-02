@@ -227,10 +227,11 @@ address {
 }
 
 .team-list {
-  background-color: #FFFFFF;
-}
+ }
 
-.team-item {}
+.team-item {
+  background: #FFFFFF;
+}
 
 .team-subtitle {
   font-weight: 500;
