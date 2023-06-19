@@ -32,6 +32,10 @@ a {
     color: currentColor;
 }
 
+link {
+text-decoration: none;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -51,8 +55,7 @@ address {
 }
 
 .link {
-  text-decoration: none;
-
+  text-decoration:none;
 }
 /**
   |============================
