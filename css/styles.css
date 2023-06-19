@@ -51,7 +51,6 @@ address {
 }
 
 .link {
-  color:var(--link-grey-cl);
   text-decoration: none;
 
 }
